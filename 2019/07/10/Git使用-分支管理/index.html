@@ -81,14 +81,13 @@
 
 
 
-<meta name="description" content="说明本文转载自廖雪峰的官方网站 大家多多支持廖雪峰老师。 创建与合并分支一开始的时候，master分支是一条线，Git用master指向最新的提交，再用HEAD指向master，就能确定当前分支，以及当前分支的提交点：  每次提交，master分支都会向前移动一步，这样，随着你不断提交，master分支的线也越来越长。 当我们创建新的分支，例如dev时，Git新建了一个指针叫dev，指向maste">
 <meta name="keywords" content="Git">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Git使用--分支管理">
 <meta property="og:url" content="https://hacnix.github.io/2019/07/10/Git使用-分支管理/index.html">
 <meta property="og:site_name" content="二哈的博客">
-<meta property="og:description" content="说明本文转载自廖雪峰的官方网站 大家多多支持廖雪峰老师。 创建与合并分支一开始的时候，master分支是一条线，Git用master指向最新的提交，再用HEAD指向master，就能确定当前分支，以及当前分支的提交点：  每次提交，master分支都会向前移动一步，这样，随着你不断提交，master分支的线也越来越长。 当我们创建新的分支，例如dev时，Git新建了一个指针叫dev，指向maste">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://i.loli.net/2019/07/10/5d25a1a1ae1f338861.png">
 <meta property="og:image" content="https://i.loli.net/2019/07/10/5d2596eaf105572610.png">
 <meta property="og:image" content="https://i.loli.net/2019/07/10/5d25979068c6654615.png">
 <meta property="og:image" content="https://i.loli.net/2019/07/10/5d259880c00b081707.png">
@@ -97,11 +96,10 @@
 <meta property="og:image" content="https://i.loli.net/2019/07/10/5d259aabb22f215496.png">
 <meta property="og:image" content="https://i.loli.net/2019/07/10/5d259af8e3f7b53726.png">
 <meta property="og:image" content="https://i.loli.net/2019/07/10/5d259d2c5b89254296.png">
-<meta property="og:updated_time" content="2019-07-10T08:17:12.029Z">
+<meta property="og:updated_time" content="2019-07-10T08:28:38.891Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git使用--分支管理">
-<meta name="twitter:description" content="说明本文转载自廖雪峰的官方网站 大家多多支持廖雪峰老师。 创建与合并分支一开始的时候，master分支是一条线，Git用master指向最新的提交，再用HEAD指向master，就能确定当前分支，以及当前分支的提交点：  每次提交，master分支都会向前移动一步，这样，随着你不断提交，master分支的线也越来越长。 当我们创建新的分支，例如dev时，Git新建了一个指针叫dev，指向maste">
-<meta name="twitter:image" content="https://i.loli.net/2019/07/10/5d2596eaf105572610.png">
+<meta name="twitter:image" content="https://i.loli.net/2019/07/10/5d25a1a1ae1f338861.png">
 
 
 
@@ -433,7 +431,8 @@
       
 
       
-        <h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p>本文转载自<a href="https://www.liaoxuefeng.com/wiki/896043488029600/900004111093344" target="_blank" rel="noopener">廖雪峰的官方网站</a></p>
+        <p><img src="https://i.loli.net/2019/07/10/5d25a1a1ae1f338861.png" alt="ep3.png"><br><a id="more"></a></p>
+<h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p>本文转载自<a href="https://www.liaoxuefeng.com/wiki/896043488029600/900004111093344" target="_blank" rel="noopener">廖雪峰的官方网站</a></p>
 <p>大家多多支持廖雪峰老师。</p>
 <h1 id="创建与合并分支"><a href="#创建与合并分支" class="headerlink" title="创建与合并分支"></a>创建与合并分支</h1><p>一开始的时候，master分支是一条线，Git用master指向最新的提交，再用HEAD指向master，就能确定当前分支，以及当前分支的提交点：</p>
 <p><img src="https://i.loli.net/2019/07/10/5d2596eaf105572610.png" alt="5d2596eaf105572610.png.png"></p>
